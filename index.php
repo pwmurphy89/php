@@ -33,13 +33,13 @@
 		<?php 
 
 		 if ($total < 9){
-		 	print "You lost! \n 
+		 	print nl2br("You lost! \n 
 		 	Play again? \n
-		 	<a href='/'><button>FIGHT</button></a>";
+		 	<a href='/'><button>FIGHT</button></a>");
 		 }else{
-		 	print "You beat the dragon!\n
+		 	print nl2br("You beat the dragon!\n
 		 	Play again?\n 
-		  <a href='/'><button>FIGHT</button></a>";
+		  <a href='/'><button>FIGHT</button></a>");
 		 }
 
 		 ?>
